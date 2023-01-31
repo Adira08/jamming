@@ -1,0 +1,86 @@
+.navbar-position{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    justify-content: space-between;
+}
+
+.heading{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.rightSide-div{
+    display: flex;
+}
+
+.dropdown-button{
+    background-color: #2e2e3300;
+    border: 1px solid rgba(255, 255, 255, 0.733);
+    color: white;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.dropdown-button>option{
+    color: black;
+}
+
+.inviteButton{
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.733);
+}
+
+.plusIcon{
+   background-color: orange;
+   height: 18px;
+   width: 18px;
+   border-radius: 15%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.inviteText{
+    color: orange;
+}
+
+
+.homeSection-position{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.bodyleftpart{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+.bodyvideo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 2px solid orange;
+    padding: 20px;
+}
+.lines{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.bodymain{
+    width: 98%;
+    height: 70vh;
+    display: flex;
+}
