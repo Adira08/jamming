@@ -9,7 +9,6 @@ const Navbar = () => {
 
     const [participants, setParticipants] = useState("1")
 
-
     return (
         <div>
             <div className='navbar-position'>
